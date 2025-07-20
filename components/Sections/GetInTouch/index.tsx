@@ -39,7 +39,7 @@ const GetInTouch = () => {
           fontVariantCaps: 'small-caps',
         }}
       >
-        Say hi!{' '}
+        Entre em contato!{' '}
         <Text as="span" fontSize="2xl" variant="emphasis">
           <motion.div
             style={{ display: 'inline-block' }}
@@ -52,12 +52,11 @@ const GetInTouch = () => {
         </Text>
       </Heading>
       <Text variant="description">
-        Though, I am fairly introverted myself. I do reply to messages as long
-        as my human interaction battery lasts. Coding, work, movies or even weeb
-        stuff, anything is cool. So feel free to message me on any of my social
-        media or shoot me an{' '}
+        No entanto, eu também sou bastante introvertido. Respondo às mensagens enquanto minha bateria de interação humana durar. 
+        Codificação, trabalho, filmes ou até mesmo coisas da web, qualquer coisa é legal. 
+        Portanto, sinta-se à vontade para me enviar uma mensagem em qualquer uma das minhas mídias sociais ou me mandar um{' '}
         <Link
-          href="mailto:marcjhon18@gmail.com"
+          href="mailto:muratagamer@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
@@ -83,8 +82,8 @@ const GetInTouch = () => {
         >
           <Text as="span">
             <Icon as={RiGithubFill} h={6} w={6} /> <br />
-            Designed and Made with <Icon as={RiHeartPulseFill} /> <br />
-            KL Lawingco <Icon as={RiCopyleftLine} /> 2021
+            Designed & Feito com <Icon as={RiHeartPulseFill} /> <br />
+            Guilherme Murata <Icon as={RiCopyleftLine} /> 2025
           </Text>
         </Link>
       </Box>

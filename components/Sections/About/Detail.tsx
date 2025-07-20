@@ -53,7 +53,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         Oque eu faço.
       </Heading>
       <Text variant="description">
-        Eu venho estudando programação a {professionalYears} anos com um objetivo claro em me tornar <b>Software Engineer</b> com foco em {' '}
+        Venho estudando programação a {professionalYears} anos com um objetivo claro em me tornar <b>Software Engineer</b> com foco em {' '}
         <b>Java</b> para {' '}
         <Tooltip>
           <Text as="span" variant="emphasis">
@@ -61,7 +61,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           </Text>
         </Tooltip>{' '}
         <br /> <br />
-        No momento busco minha primeira oportunidade na área mesmo que front-end.
+        No momento busco minha primeira oportunidade na área como fullstack.
         <br /> <br />
         Aqui esta algumas das tecnologias que tenho contato e prática. {' '}
       </Text>
@@ -94,7 +94,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             textAlign="left"
             onClick={onOpen}
           >
-            Meu arsenal <Icon as={IoMdOpen} />
+            Meu arsenal completo <Icon as={IoMdOpen} />
           </Text>
         </Box>
       </SimpleGrid>

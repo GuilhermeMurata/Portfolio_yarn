@@ -32,6 +32,12 @@ import {
   SiUnity,
   SiMicrosoft,
   SiElectron,
+  SiJava,
+  SiC,
+  SiCss3,
+  SiSass,
+  SiGrunt,
+  SiGulp,
 } from 'react-icons/si'
 import { BsQuestionSquare } from 'react-icons/bs'
 import { AiOutlineAntDesign } from 'react-icons/ai'
@@ -59,12 +65,8 @@ export const Skills: {
 } = {
   backend: [
     {
-      name: 'C# - .NET.Core',
-      icon: SiDotNet,
-    },
-    {
-      name: 'Node',
-      icon: SiNodeDotJs,
+      name: 'Java',
+      icon: SiJava,
     },
     {
       name: 'Javascript (ES6+)',
@@ -75,162 +77,42 @@ export const Skills: {
       icon: SiTypescript,
     },
     {
-      name: 'Graphql (JS, C#)',
-      icon: SiGraphql,
+      name: 'C',
+      icon: SiC,
     },
     {
-      name: 'PHP (Wordpress, Slim)',
-      icon: SiPhp,
+      name: 'C#',
+      icon: SiDotNet,
     },
-  ],
-  frontend: [
     {
-      name: 'React, RecoilJS',
+      name: 'SCSS',
+      icon: SiCss3,
+    },
+    {
+      name: 'SASS',
+      icon: SiSass,
+    },
+    {
+      name: 'Grunt',
+      icon: SiGrunt,
+    },
+    {
+      name: 'Gulp',
+      icon: SiGulp,
+    },
+    {
+      name: 'React',
       icon: SiReact,
-    },
-    {
-      name: 'NextJS',
-      icon: SiNextDotJs,
-    },
-    {
-      name: 'Apollo Graphql',
-      icon: SiApollographql,
-    },
-    {
-      name: 'Redux',
-      icon: SiRedux,
-    },
-    {
-      name: 'VueJS',
-      icon: SiVueDotJs,
-    },
-    {
-      name: 'Ghost',
-      icon: SiGhost,
-    },
+    }
   ],
-  database: [
-    {
-      name: 'PostgreSQL',
-      icon: SiPostgresql,
-    },
-    {
-      name: 'MsSQL',
-      icon: SiMicrosoftsqlserver,
-    },
-    {
-      name: 'MySQL',
-      icon: SiMysql,
-    },
-    {
-      name: 'MongoDb',
-      icon: SiMongodb,
-    },
-    {
-      name: 'Redis',
-      icon: SiRedis,
-    },
-    {
-      name: 'SocketIO',
-      icon: SiSocketDotIo,
-    },
-    {
-      name: 'Google Pubsub',
-      icon: SiGooglecloud,
-    },
-  ],
-  cicd: [
-    {
-      name: 'Docker',
-      icon: SiDocker,
-    },
-    {
-      name: 'GCP',
-      icon: SiGooglecloud,
-    },
-    {
-      name: 'CPanel',
-      icon: SiCpanel,
-    },
-    {
-      name: 'Rancher',
-      icon: SiRancher,
-    },
-    {
-      name: 'GitlabCICD',
-      icon: SiGitlab,
-    },
-    {
-      name: 'Buildkite',
-      icon: BsQuestionSquare,
-    },
-  ],
-  'ui frameworks': [
-    {
-      name: 'Styled Components',
-      icon: SiStyledComponents,
-    },
-    {
-      name: 'AntDesign',
-      icon: AiOutlineAntDesign,
-    },
-    {
-      name: 'MaterialUI',
-      icon: SiMaterialUi,
-    },
-    {
-      name: 'Framer Motion',
-      icon: SiFramer,
-    },
-    {
-      name: 'ChakraUI',
-      icon: BsQuestionSquare,
-    },
-  ],
-  'productivity boost': [
-    {
-      name: 'VSCode',
-      icon: SiVisualstudiocode,
-    },
-    {
-      name: 'Git',
-      icon: SiGit,
-    },
-    {
-      name: 'Bash',
-      icon: SiGnubash,
-    },
-    {
-      name: 'SourceTree',
-      icon: FaSourcetree,
-    },
-  ],
-  mobile: [
-    {
-      name: 'React Native',
-      icon: SiReact,
-    },
-    {
-      name: 'Web PWA',
-      icon: IoLogoPwa,
-    },
-  ],
-  games: [
-    {
-      name: 'Unity3D',
-      icon: SiUnity,
-    },
-  ],
-  desktop: [
-    {
-      name: 'Windows Forms, WPF',
-      icon: SiMicrosoft,
-    },
-    {
-      name: 'Electron',
-      icon: SiElectron,
-    },
-  ],
+  frontend: [],
+  cicd: [],
+  database: [],
+  'ui frameworks': [],
+  'productivity boost': [],
+  mobile: [],
+  games: [],
+  desktop: []
 }
 
 export const splitSkills = (srcArray: Skill[]) => {

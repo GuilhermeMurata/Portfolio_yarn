@@ -2,11 +2,7 @@ import { IconType } from 'react-icons'
 import {
   FaInstagram,
   FaLinkedin,
-  FaStackOverflow,
-  FaTwitter,
-  FaYoutube,
-  FaGithub,
-  FaDev,
+  FaGithub
 } from 'react-icons/fa'
 
 type SocialMedia = {
@@ -17,38 +13,18 @@ type SocialMedia = {
 
 export const SocialMedias: SocialMedia[] = [
   {
-    label: 'Twitter',
-    href: 'https://twitter.com/keysl1831',
-    icon: FaTwitter,
-  },
-  {
     label: 'Instagram',
-    href: 'https://www.instagram.com/kllawingco/',
+    href: 'https://www.instagram.com/temaki_murata/',
     icon: FaInstagram,
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/marclawingco/',
+    href: 'https://www.linkedin.com/in/guilherme-murata-238859229/',
     icon: FaLinkedin,
   },
   {
-    label: 'StackOverflow',
-    href: 'https://stackoverflow.com/users/3867490/keysl',
-    icon: FaStackOverflow,
-  },
-  {
-    label: 'Youtube',
-    href: 'https://www.youtube.com/channel/UCV-MiUVsKJrKJKKfUK58nhg',
-    icon: FaYoutube,
-  },
-  {
     label: 'Github',
-    href: 'https://github.com/klawingco',
+    href: 'https://github.com/GuilhermeMurata',
     icon: FaGithub,
-  },
-  {
-    label: 'Dev.to',
-    href: 'https://dev.to/klawingco',
-    icon: FaDev,
-  },
+  }
 ]

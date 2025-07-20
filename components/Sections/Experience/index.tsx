@@ -13,16 +13,11 @@ const DetailSection = () => (
         fontVariantCaps: 'small-caps',
       }}
     >
-      Places i’ve worked.
+      Lugares que.
     </Heading>
     <Text variant="description">
-      Since 2016, had a privilege to work with several companies that enables me
-      to hone my skills and talents. These companies will always have a special
-      place in my heart. Currently I am working with{' '}
-      <Link href="https://www2.deloitte.com/" target="_blank" rel="noreferrer">
-        Deloitte
-      </Link>
-      .
+      Desde 2023 tive o privilégio de trabalhar com várias empresas que me permitiram aprimorar
+      minhas habilidades e talentos. Essas empresas sempre terão um lugar especial no meu coração.
     </Text>
 
     <ExperienceTab />

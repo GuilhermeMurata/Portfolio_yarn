@@ -61,7 +61,7 @@ const Sidebar = () => {
             variant="accent"
             fontWeight="light"
           >
-            Ohh you found me?. Howdy! I am
+            Ohh você me encontrou?. Prazer! Me sou
           </MotionText>
           <MotionHeading
             as="h1"
@@ -70,7 +70,7 @@ const Sidebar = () => {
             textTransform="uppercase"
             variants={fadeInUp}
           >
-            Marc Jhon
+            Guilherme
           </MotionHeading>
           <MotionHeading
             as="h2"
@@ -82,7 +82,7 @@ const Sidebar = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Lawingco.
+            Murata.
           </MotionHeading>
           <MotionText
             colorScheme="gray"
@@ -90,7 +90,7 @@ const Sidebar = () => {
             className={styles.marginTopForce}
             variants={fadeInUp}
           >
-            Or you could call me KL. That works too . . .
+            Sou mais conhecido e chamado por Murata.
           </MotionText>
 
           <MotionHeading
@@ -100,7 +100,7 @@ const Sidebar = () => {
             className={styles.marginTopSmall}
             variants={fadeInUp}
           >
-            Software Engineer
+            Desenvolvedor Fullstack Junior
           </MotionHeading>
 
           <MotionText
@@ -110,13 +110,13 @@ const Sidebar = () => {
             variants={fadeInUp}
             maxWidth={{ base: '100%', lg: '80%' }}
           >
-            Hey! How nice of you to look at my personal site,
+            Olá! Que bom que você deu uma olhada no meu site pessoal,
             <Text variant="emphasis" as="span">
               {' '}
-              Thank you!
+              Obrigado!
             </Text>
-            <br />I am software engineer that specializes at backend apis, front
-            end integration, recently found myself studying UX too.
+            <br />
+            Sou desenvolvedor fullstack junior em crescimento constante, venho caminhando nesta jornada há 2 anos.
           </MotionText>
           <MotionButton
             size="lg"
@@ -128,12 +128,12 @@ const Sidebar = () => {
             width="120px"
             variants={simpleOpacity}
             as={'a'}
-            href="mailto:marcjhon18@gmail.com"
+            href="https://docs.google.com/document/d/1fvvjn54AvkMKb8CXi6LEG2puL153FN77/edit?usp=sharing&ouid=102696294823613470719&rtpof=true&sd=true"
             target="_blank"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Get in touch!
+            Meu curriculo!
           </MotionButton>
 
           <MotionBox d="flex" variants={simpleOpacity}>

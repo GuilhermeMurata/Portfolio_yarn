@@ -1,6 +1,6 @@
 import { Link } from '@chakra-ui/react'
 
-export type Company = 'Deloitte' | 'SCG' | 'Blotocol'
+export type Company = 'Teleperformance' | 'Pagseguro' | 'Sanar'
 
 export type CompanyDetail = {
   name: string
@@ -19,16 +19,16 @@ export type CompanyDetail = {
 export const Experiences: {
   [key in Company]: CompanyDetail
 } = {
-  Deloitte: {
-    name: 'Deloitte',
-    longName: 'Deloitte Consulthing Phils. Delivery Center',
-    subDetail: 'Consulthing Phils. Delivery Center',
-    url: 'https://www2.deloitte.com/',
-    position: 'Software Engineer Consultant',
-    duration: 'Sep 2021 - Present',
+  Teleperformance: {
+    name: 'Teleperformance',
+    longName: 'Teleperformance',
+    subDetail: 'International',
+    url: 'https://www.tp.com/pt-br/localizacoes/brasil/',
+    position: 'Expert em interação bilíngue',
+    duration: 'Fev 2025 - Mai 2025',
     logo: {
-      light: '/worked_at_logos/deloitte/Deloitte_logo_black.png',
-      dark: '/worked_at_logos/deloitte/Deloitte_logo.png',
+      light: '/worked_at_logos/teleperformance/Teleperformance_logo.png',
+      dark: '/worked_at_logos/teleperformance/Teleperformance_logo.png',
     },
     roles: [
       <>
@@ -44,7 +44,7 @@ export const Experiences: {
           href="https://www.deloittedigital.com.au/"
           target="_blank"
           rel="noreferrer"
-        >
+          >
           Deloitte Digital AU Site.
         </Link>
       </>,
@@ -62,16 +62,16 @@ export const Experiences: {
       </>,
     ],
   },
-  SCG: {
-    name: 'Scentregroup',
-    longName: 'Scentregroup Limited AU',
-    subDetail: 'via Prosource BPO',
-    url: 'https://www.scentregroup.com/',
-    position: 'Software Engineer',
-    duration: 'Feb 2020 - Sep 2021',
+  Pagseguro: {
+    name: 'Pagseguro',
+    longName: 'Pagseguro International',
+    subDetail: 'International',
+    url: 'https://pagbank.com.br/',
+    position: 'Auxiliar administrativo',
+    duration: 'Jul 2024 - Fev 2025',
     logo: {
-      light: '/worked_at_logos/scg/SCG_400x400.jpg',
-      dark: '/worked_at_logos/scg/SCG.png',
+      light: '/worked_at_logos/pagseguro/Pagseguro_logo.png',
+      dark: '/worked_at_logos/pagseguro/Pagseguro_logo.png',
     },
     roles: [
       <>
@@ -123,16 +123,16 @@ export const Experiences: {
       </>,
     ],
   },
-  Blotocol: {
-    name: 'Blotocol',
-    longName: 'Blotocol Philippines',
-    subDetail: 'formerly IVP Global Inc.',
-    url: 'https://blotocol.com/',
-    position: 'Senior Software Engineer',
-    duration: 'Nov 2016 - Feb 2020',
+  Sanar: {
+    name: 'Sanar',
+    longName: 'Sanar Cetrus educação médica',
+    subDetail: 'Pós graduação',
+    url: 'https://sanarsaude.com/?gad_source=1&gad_campaignid=20534043116&gbraid=0AAAAACqYQxB5UMqQsmAMGiBfEnI6KEU2U&gclid=CjwKCAjwp_LDBhBCEiwAK7FnkqO5ksaojxEsfE9H3cmocv3uEcKvHAuQu-quM9VOyJI71TnI76bRmhoCwHYQAvD_BwE',
+    position: 'Auxiliar administrativo',
+    duration: 'Jun 2023 - Jul 2024',
     logo: {
-      light: '/worked_at_logos/ivp/blotocol_logo-dark.png',
-      dark: '/worked_at_logos/ivp/blotocol-logo-white.png',
+      light: '/worked_at_logos/sanar/Sanar_logo.png',
+      dark: '/worked_at_logos/sanar/Sanar_logo.png',
     },
     roles: [
       <>
@@ -157,7 +157,7 @@ export const Experiences: {
 }
 
 export const ExperiencesList = [
-  Experiences.Deloitte,
-  Experiences.SCG,
-  Experiences.Blotocol,
+  Experiences.Teleperformance,
+  Experiences.Pagseguro,
+  Experiences.Sanar,
 ]
