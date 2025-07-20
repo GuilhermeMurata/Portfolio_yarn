@@ -16,8 +16,7 @@ const DetailSection = () => (
       Formações.
     </Heading>
     <Text variant="description">
-      Desde 2023 tive o privilégio de trabalhar com várias empresas que me permitiram aprimorar
-      minhas habilidades e talentos. Essas empresas sempre terão um lugar especial no meu coração.
+      Durante esta jornada topei com diversos cursos de varias plataformas, onde aprendi muito e continuo aprendendo cada dia mais.
     </Text>
 
     <FormationsTab />

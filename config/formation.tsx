@@ -1,6 +1,7 @@
-import { Link } from '@chakra-ui/react'
+import { Icon, Link } from '@chakra-ui/react'
+import { IoMdOpen } from 'react-icons/io'
 
-export type Company = 'Teleperformance' | 'Pagseguro' | 'Sanar'
+export type Company = 'EBAC' | 'Alura' | 'DIO' | 'Udemy'
 
 export type CompanyDetail = {
   name: string
@@ -19,16 +20,16 @@ export type CompanyDetail = {
 export const Formations: {
   [key in Company]: CompanyDetail
 } = {
-  Teleperformance: {
-    name: 'Teleperformance',
-    longName: 'Teleperformance',
-    subDetail: 'International',
+  EBAC: {
+    name: 'EBAC',
+    longName: 'EBAC',
+    subDetail: 'Escola de artes britanica',
     url: 'https://www.tp.com/pt-br/localizacoes/brasil/',
     position: 'Expert em interação bilíngue',
     duration: 'Fev 2025 - Mai 2025',
     logo: {
-      light: '/worked_at_logos/teleperformance/Teleperformance_logo.png',
-      dark: '/worked_at_logos/teleperformance/Teleperformance_logo.png',
+      light: '/certification_at_logos/logo_ebac.png',
+      dark: '/certification_at_logos/logo_ebac.png',
     },
     roles: [
       <>
@@ -62,68 +63,98 @@ export const Formations: {
       </>,
     ],
   },
-  Pagseguro: {
-    name: 'Pagseguro',
-    longName: 'Pagseguro International',
+  Alura: {
+    name: 'Alura',
+    longName: 'Alura',
     subDetail: 'International',
     url: 'https://pagbank.com.br/',
     position: 'Auxiliar administrativo',
     duration: 'Jul 2024 - Fev 2025',
     logo: {
-      light: '/worked_at_logos/pagseguro/Pagseguro_logo.png',
-      dark: '/worked_at_logos/pagseguro/Pagseguro_logo.png',
+      light: '/certification_at_logos/logo_alura.jpg',
+      dark: '/certification_at_logos/logo_alura.jpg',
     },
     roles: [
       <>
-        Revamping the legacy Partner Portal into a new{' '}
-        <Link
-          aria-label="Westfield Marketing Hub"
-          href="https://partner.scentregroup.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Westfield Marketing Hub
-        </Link>{' '}
-        using NextJS and Typescript. Restructuring the old express app into a
-        newer architectural design approach.
-      </>,
-      <>
-        Created multiple Contentful and Bynder extensions to improve BX process
-        better.
-      </>,
-      <>
-        Worked on maintaining{' '}
+        {' '}
         <Link
           variant="primaryLink"
-          href="https://www.westfield.com.au/"
+          href="https://cursos.alura.com.br/certificate/4f24b555-bf29-40b0-9478-aa50ef4e919a"
           target="_blank"
           rel="noreferrer"
         >
-          Westfield
+          JavaScript​: conhecendo arrays <Icon as={IoMdOpen} />
         </Link>{' '}
-        main site and Graphql apis written in NodeJS.
       </>,
       <>
-        Migrating of existing marketing email related tools and batch jobs from
-        Responsys into new platform called Braze.
-      </>,
-      <>
-        Hired at early 2020, first major task was helping with selecting a new
-        marketing vendor that can scale and also enable us to have
-        personalisation as well, selecting{' '}
+        {' '}
         <Link
-          aria-label="Braze"
-          href="https://www.braze.com/"
+          variant="primaryLink"
+          href="https://cursos.alura.com.br/certificate/d56ad980-3d5e-49db-9609-444e2f56f175/"
           target="_blank"
           rel="noreferrer"
         >
-          Braze
+          JavaScript​: conhecendo objetos <Icon as={IoMdOpen} />
         </Link>{' '}
-        as a result.
       </>,
+      <>
+        {' '}
+        <Link
+          variant="primaryLink"
+          href="https://cursos.alura.com.br/certificate/3794e438-c4b4-4f9c-b468-abb4442fe6a8"
+          target="_blank"
+          rel="noreferrer"
+        >
+          JavaScript​: utilizando tipos, variáveis e funções <Icon as={IoMdOpen} />
+        </Link>{' '}
+      </>,
+      <>
+        {' '}
+        <Link
+          variant="primaryLink"
+          href="https://cursos.alura.com.br/certificate/58696d2e-d096-443c-a8c5-846927083e8b"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Praticando Java: Strings e Regex <Icon as={IoMdOpen} />
+        </Link>{' '}
+      </>,
+      <>
+        {' '}
+        <Link
+          variant="primaryLink"
+          href="https://cursos.alura.com.br/certificate/9eeb4b2b-c2d9-4bdf-bfaf-807158499002"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Praticando Java: condicionais if e else <Icon as={IoMdOpen} />
+        </Link>{' '}
+      </>,
+      <>
+        {' '}
+        <Link
+          variant="primaryLink"
+          href="https://cursos.alura.com.br/certificate/4b3f7685-c6a5-45e2-a26c-52b5ddc28d37"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Praticando Java: laços for e while <Icon as={IoMdOpen} />
+        </Link>{' '}
+      </>,
+      <>
+        {' '}
+        <Link
+          variant="primaryLink"
+          href="https://cursos.alura.com.br/certificate/3aff55ae-68a0-45f6-8514-63785bd40c3a"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Praticando Java: variáveis e tipos <Icon as={IoMdOpen} />
+        </Link>{' '}
+      </>
     ],
   },
-  Sanar: {
+  DIO: {
     name: 'Sanar',
     longName: 'Sanar Cetrus educação médica',
     subDetail: 'Pós graduação',
@@ -131,8 +162,39 @@ export const Formations: {
     position: 'Auxiliar administrativo',
     duration: 'Jun 2023 - Jul 2024',
     logo: {
-      light: '/worked_at_logos/sanar/Sanar_logo.png',
-      dark: '/worked_at_logos/sanar/Sanar_logo.png',
+      light: '/certification_at_logos/logo_dio.png',
+      dark: '/certification_at_logos/logo_dio.png',
+    },
+    roles: [
+      <>
+        Developed a Twitter Raffle Campaign / Contest Bot called Camps with
+        statistics similar to Facebook Ads.
+      </>,
+      <>
+        In 2019 got promoted as Senior Software Engineer and worked with Cryto
+        Exchange, Smart Contracts and other APIs using several techs such as
+        NodeJS, .NET Core and React.
+      </>,
+      <>
+        Create highly scalable Japanese e-commerce sites. Most notable clients
+        were TV Tokyo, Layla EC using .NET.
+      </>,
+      <>
+        Hired at 2016, Undergone Japanese language training first. Shortly
+        after, worked with in-house .NET MVC Framework called ERS.
+      </>,
+    ],
+  },
+  Udemy: {
+    name: 'Sanar',
+    longName: 'Sanar Cetrus educação médica',
+    subDetail: 'Pós graduação',
+    url: 'https://sanarsaude.com/?gad_source=1&gad_campaignid=20534043116&gbraid=0AAAAACqYQxB5UMqQsmAMGiBfEnI6KEU2U&gclid=CjwKCAjwp_LDBhBCEiwAK7FnkqO5ksaojxEsfE9H3cmocv3uEcKvHAuQu-quM9VOyJI71TnI76bRmhoCwHYQAvD_BwE',
+    position: 'Auxiliar administrativo',
+    duration: 'Jun 2023 - Jul 2024',
+    logo: {
+      light: '/certification_at_logos/logo_udemy.png',
+      dark: '/certification_at_logos/logo_udemy.png',
     },
     roles: [
       <>
@@ -157,7 +219,8 @@ export const Formations: {
 }
 
 export const FormationsList = [
-  Formations.Teleperformance,
-  Formations.Pagseguro,
-  Formations.Sanar,
+  Formations.EBAC,
+  Formations.Alura,
+  Formations.DIO,
+  Formations.Udemy,
 ]
