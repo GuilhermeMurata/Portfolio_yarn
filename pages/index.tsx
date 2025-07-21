@@ -130,7 +130,7 @@ const Portfolio = ({ articles }: { articles: Article[] }): JSX.Element => {
                 paddingX={0}
                 flexDirection={'row'}
               >
-                <Formation articles={articles} />
+                <Formation/>
               </Box>
             </FadeInLayout>
             <FadeInLayout>
