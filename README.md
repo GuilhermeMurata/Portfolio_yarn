@@ -1,30 +1,27 @@
 # Murata Personal Site
 
-Hey there! KL here. This is a v2 of my portfolio site, a complete rewrite from v1 which is shamefully a template I edited a bit back on 2018. I wanted to try out what I can do on my own in regards to UI and UX design so I reckon why not start with my porfolio.
+Olá! Aqui é o Murata. Esta é a versão 2 do meu site de portfólio, uma reescrita completa da versão 1, que, vergonhosamente, é um modelo que tentei fazer ano passado utilizando bootstrap e ficou horrivel. Eu queria experimentar o que posso fazer por conta própria em relação ao design de UI e UX, então achei que por que não começar com meu portfólio.
 
-This is written in Typescript using [Next.js](https://nextjs.org/), as a SSG tool. It utilizes [ChakraUI](https://chakra-ui.com/) as well as  [Framer Motion](https://www.framer.com/motion/) for animations.
+Ele foi escrito em Typescript usando [Next.js](https://nextjs.org/), com a ferramente SSG também. Ele utiliza o [ChakraUI](https://chakra-ui.com/) e o [Framer Motion](https://www.framer.com/motion/) para as animações.
 
-
-This contains bits of my details. In future I am planning to get this to cater my own blog too but for now will use dev.to links. 
-
-Site is Currently deployed at <b>Netlify</b>'s Free tier .
+O site está atualmente implantado no <b>Vercel</b>.
 
 > Build Status 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4a91d5f6-a717-4b60-9f92-82c11745f2e8/deploy-status)](https://app.netlify.com/sites/kllawingco/deploys)
+[Vercel Status](https://portfoliomurata-laqrso6nv-muratas-projects-a7f0e663.vercel.app/)
 
 
 ## Local Development
 
-This is just a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Este é apenas um projeto [Next.js](https://nextjs.org/) inicializado com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Please use atleast Node v12, but the recommended version is Node v14 LTS. There's a `.nvmrc`, you can run `nvm use` if you have nvm installed.
+Use pelo menos o Node v12, mas a versão recomendada é o Node v14 LTS. Há um `.nvmrc`, você pode executar o `nvm use` se tiver o nvm instalado.
 
 ## Getting Started
 
-This project heavily favors <b>yarn</b> over npm. 
+Este projeto favorece fortemente o <b>yarn</b> em relação ao npm.
 
-So to set things up you need to run
+Portanto, para configurar as coisas, você precisa executar:
 
 ```bash
 yarn install
@@ -34,17 +31,12 @@ or just
 yarn
 ```
 
-Then to run the development server:
+Em seguida, para executar o servidor de desenvolvimento:
 
 ```bash
-yarn dev
+yarn dev run
 ```
 
-and it should open at
+E ele deverá abrir em:
 
 > http://localhost:3000/
-
-
-## Deployment
-
-Nothing special, its setup at Netlify end (in other words: no `netlify.toml`), just merge a feat branch to master branch and you're good. 
