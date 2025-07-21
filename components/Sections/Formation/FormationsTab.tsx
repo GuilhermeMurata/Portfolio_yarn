@@ -77,7 +77,6 @@ const FormationsTab = () => {
               src={
                 colorMode === 'dark' ? company.logo.dark : company.logo.light
               }
-              alt={company.longName}
               maxWidth="88px"
               fallback={<Skeleton height="100%" width="100%" />}
             ></Image>
@@ -88,7 +87,7 @@ const FormationsTab = () => {
         {FormationsList.map((company) => (
           <TabPanel key={`TabPanel-${company.name}`}>
             <SlideFade offsetY="20px" in={true}>
-              <Stack spacing={0}>
+              <Stack spacing={1}>
                 <Text
                   as="span"
                   fontSize="lg"
@@ -119,6 +118,7 @@ const FormationsTab = () => {
                   </Text>
                 </Text>
                 <Text fontSize="smaller">{company.duration}</Text>
+                <Text fontSize="smaller">{company.description}</Text>
               </Stack>
               <List spacing={3} pt={5}>
                 {company.roles?.map((roleDesc, idx) => (
