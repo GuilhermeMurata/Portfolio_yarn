@@ -8,7 +8,7 @@ O site está atualmente implantado no <b>Vercel</b>.
 
 ## Demo
 
-<img src="./public/demo.gif" alt="DEMO" />
+<img src="./public/Portfolio.mp4" alt="DEMO" />
 
 > Build Status 
 
